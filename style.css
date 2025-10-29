@@ -60,7 +60,6 @@ ul {
 
 .hero-img {
   flex-basis: 50%;
-
 }
 
 .information {
@@ -94,9 +93,6 @@ ul {
 .quote {
   background-color: #E5E7EB;
   padding: 64px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
 .quote-text {
@@ -105,11 +101,13 @@ ul {
   font-weight: 300;
   max-width: 50%;
   font-style: italic;
+  margin: 0 auto;
 }
 
-.quote-name {
-  align-self: flex-end;
+.quote-name { 
   max-width: 50%;
+  margin: 0 auto;
+  text-align: right;
 }
 
 .call-action {
