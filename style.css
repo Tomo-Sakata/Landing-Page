@@ -139,3 +139,11 @@ ul {
 .call-text {
   color: #F9FAF8;
 }
+
+.footer {
+  color: #E5E7EB;
+  background-color: #1F2937;
+  text-align: center;
+  padding: 64px;
+  margin: 0 auto;
+}
