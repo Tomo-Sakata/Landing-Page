@@ -1,4 +1,4 @@
-html, body, h1, h2 {
+html, body, h1, h2, h3 {
   margin: 0;
   padding: 0;
 }
@@ -82,7 +82,7 @@ ul {
   text-align: center;
   font-size: 36px;
   color: #1F2937;
-  font-weight: 900px;
+  font-weight: 900;
   margin: 32px 0px;
 }
 
@@ -114,5 +114,28 @@ ul {
 .quote-name {
   align-self: flex-end;
   max-width: 50%;
+}
 
+.call-action {
+  background-color: #3882F6;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 32px;
+  margin: 100px auto;
+  max-width: 1000px;
+  border-radius:16px;
+}
+
+.call-button {
+  background-color: #3882F6;
+  color: #F9FAF8;
+  border-color: #F9FAF8;
+  padding: 8px 32px;
+  border-radius:8px;
+  margin-top: 8px;
+}
+
+.call-text {
+  color: #F9FAF8;
 }
