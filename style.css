@@ -60,11 +60,7 @@ ul {
 
 .hero-img {
   flex-basis: 50%;
-}
 
-.hero-img img {
-  max-width: 500px;
-  height: 300px;
 }
 
 .information {
