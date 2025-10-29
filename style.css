@@ -66,3 +66,30 @@ ul {
   max-width: 500px;
   height: 300px;
 }
+
+.information {
+  display: flex;
+  flex-direction: column;
+}
+
+.info-items {
+  display: flex;
+  justify-content: center;
+}
+
+.info-title {
+  text-align: center;
+  font-size: 36px;
+  color: #1F2937;
+  font-weight: 900px;
+  margin: 32px 0px;
+}
+
+.info-img {
+  margin: 0 24px;
+  max-width: 200px;
+}
+
+.info-img img {
+  max-width: 200px;
+}
